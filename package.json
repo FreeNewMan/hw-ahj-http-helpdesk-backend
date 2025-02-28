@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "23.x"
+    "node": "20.x"
   },
   "dependencies": {
     "@koa/bodyparser": "^5.1.1",
