@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "20.x"
+    "node": "23.x"
   },
   "dependencies": {
     "@koa/bodyparser": "^5.1.1",
