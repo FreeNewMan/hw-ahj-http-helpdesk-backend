@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2gogxc4rarsffamg?svg=true)](https://ci.appveyor.com/project/FreeNewMan/hw-ahj-http-helpdesk-backend)
+
 # Домашнее задание к занятию "7. Работа с HTTP"
 
 Backend
