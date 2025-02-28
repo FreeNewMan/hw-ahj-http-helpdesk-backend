@@ -1,0 +1,21 @@
+{
+  "name": "hw-ahj-http-helpdesk-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "23.x"
+  },
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@koa/cors": "^5.0.0",
+    "date-format": "^4.0.14",
+    "koa": "^2.15.4",
+    "uuid": "^11.1.0"
+  }
+}
