@@ -23,8 +23,9 @@ app.use(bodyParser());
 app.use(async (ctx) => {
   ctx.body = ctx.request.body;
 
-  // console.log(ctx.request);
-  const { method } = ctx.request.query;
+   //console.log(ctx.request);
+
+   const { method } = ctx.request.query;
 
   switch (method) {
     case 'allTickets':
@@ -42,7 +43,7 @@ app.use(async (ctx) => {
         const findTicket = tickets.filter((el) => el.id === ctx.request.query.id);
         if (findTicket.length === 1) {
           ctx.response.status = 200;
-          ctx.response.body = [...findTicket[0]];
+          ctx.response.body = findTicket[0];
         } else {
           ctx.response.status = 404;
         }
